@@ -1,0 +1,43 @@
+package avsoma1;
+
+import java.util.Scanner;
+
+public class Conorado {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	Scanner ler = new Scanner(System.in);
+	int a;
+	
+	System.out.println("Qual é valor do dia da semana?");
+	a = ler.nextInt();
+	
+	if (a==1) {
+		System.out.println("É domingo!");
+	}
+	else if (a==2) {
+		System.out.println("É segunda-feira!");
+	}
+	else if (a==3) {
+		System.out.println("É terça-feira!");
+	}
+	else if (a==4) {
+		System.out.println("É quarta-feira!");
+	}
+	else if (a==5) {
+		System.out.println("É quinta-feira!");
+	}
+	else if (a==6) {
+		System.out.println("É sexta-feira!");
+	}
+	else if (a==7) {
+		System.out.println("É sábado!");
+	}
+	else {
+		System.out.println("Valor inválido!");
+	}
+		
+
+	}
+
+}
