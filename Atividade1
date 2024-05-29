@@ -5,20 +5,20 @@ public class Garro {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	Scanner ler = new Scanner(System.in);
-	double a,b,soma,sub,mult,div;
+	Scanner ler = new Scanner(System.in); // Declaração de Scanner
+	double a,b,soma,sub,mult,div; // Declaração de variável
 	
 	System.out.println("Insira o valor 1: ");
-	a = ler.nextDouble();
+	a = ler.nextDouble(); // Inserir valor 1 (a)
 	System.out.println("Insira o valor 2: ");
-	b = ler.nextDouble();
+	b = ler.nextDouble(); // Inserir valor 2 (b)
 	
-	soma = a+b;
-	sub = a-b;
-	mult = a*b;
-	div = a/b;
+	soma = a+b; // Soma dos 2 valores
+	sub = a-b; // Subtração dos 2 valores
+	mult = a*b; // Multiplicação dos 2 valores
+	div = a/b; // Divisão dos 2 valores
 	
-	System.out.println("====================================================");
+	System.out.println("===================================================="); // Saída dos valores e resultados
 	System.out.println("O valor da soma entre "+ a +" + " + b + " é: " + soma);
 	System.out.println("O valor da subtração entre "+ a +" - " + b + " é: " + sub);
 	System.out.println("O valor da multiplicação entre "+ a +" x " + b + " é: " + mult);
