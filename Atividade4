@@ -1,0 +1,21 @@
+package avsoma1;
+import java.util.Scanner;
+public class YuriAlberto {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in); // Declarar Scanner
+	int a,soma = 0; // Declarar variáveis
+	
+	for(int i = 1; i<16; i++) { // Sistema para Looping 15 vezes
+		System.out.println("Digite o " + i + "° valor:");
+		a = ler.nextInt(); // Inserir valor
+		
+		soma = soma+a; // Executar conta
+	}
+	
+	System.out.println("========");
+	System.out.println(soma); // Apresentando valor da soma
+
+	}
+
+}
