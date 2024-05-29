@@ -6,13 +6,13 @@ public class Conorado {
 
 	public static void main(String[] args) {
 	// TODO Auto-generated method stub
-	Scanner ler = new Scanner(System.in);
-	int a;
+	Scanner ler = new Scanner(System.in); // Declarar Scanner
+	int a; // Declaração de variável
 	
-	System.out.println("Qual é valor do dia da semana?");
-	a = ler.nextInt();
+	System.out.println("Qual é valor do dia da semana?"); 
+	a = ler.nextInt(); // Inserir valor da variável
 	
-	if (a==1) {
+	if (a==1) {    //Processamento de dados em busca de um igual ao valor da variável
 		System.out.println("É domingo!");
 	}
 	else if (a==2) {
@@ -33,8 +33,8 @@ public class Conorado {
 	else if (a==7) {
 		System.out.println("É sábado!");
 	}
-	else {
-		System.out.println("Valor inválido!");
+	else {  // Caso valor não seja entre 1 a 7
+  		System.out.println("Valor inválido!");
 	}
 		
 
