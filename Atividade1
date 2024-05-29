@@ -1,0 +1,29 @@
+package avsoma1;
+import java.util.Scanner;
+public class Garro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	Scanner ler = new Scanner(System.in);
+	double a,b,soma,sub,mult,div;
+	
+	System.out.println("Insira o valor 1: ");
+	a = ler.nextDouble();
+	System.out.println("Insira o valor 2: ");
+	b = ler.nextDouble();
+	
+	soma = a+b;
+	sub = a-b;
+	mult = a*b;
+	div = a/b;
+	
+	System.out.println("====================================================");
+	System.out.println("O valor da soma entre "+ a +" + " + b + " é: " + soma);
+	System.out.println("O valor da subtração entre "+ a +" - " + b + " é: " + sub);
+	System.out.println("O valor da multiplicação entre "+ a +" x " + b + " é: " + mult);
+	System.out.println("O valor da divisão entre "+ a +" / " + b + " é: " + div);
+
+	}
+
+}
