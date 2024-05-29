@@ -1,0 +1,34 @@
+package elenco;
+import java.util.Scanner;
+public class Fausto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner ler = new Scanner(System.in);
+
+		String carro [] = new String [6]; // Declaração e alocação de matriz
+		
+		for (int i=0; i<6; i++) { // Looping até i ser 6
+		System.out.println("Qual carro ficará no " + i + "° lugar do garagem?"); 
+		carro [i] = ler.next(); // Inserindo o carro
+		
+		}
+		
+		System.out.println("========================"); // Mera decoraçãozinha
+		System.out.println("🪧 - Garagem");
+		for (int i=0; i<6; i++) { // Looping até i ser 6 
+			System.out.println("--");
+		 System.out.println("🚗|        --> "+ carro [i]); // Apresentar o carro
+				
+
+			}
+		System.out.println("========================");
+	
+				
+
+			}}
+
+
+	
+
