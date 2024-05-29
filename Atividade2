@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class Conorado {
 
 	public static void main(String[] args) {
-	Scanner ler = new Scanner(System.in);
-	double b,h,x;
+	Scanner ler = new Scanner(System.in); // Declaração do Scanner
+	double b,h,x; // Declaração de variável
 	
 	System.out.println("Informe o valor da base do triângulo: ");
-	b = ler.nextDouble();
+	b = ler.nextDouble(); // Inserir valor da base (b)
 	System.out.println("Informe o valor da altura do triângulo: ");
-	h = ler.nextDouble();
+	h = ler.nextDouble(); // Inserir valor da altura (h)
 	
-	x=(b*h)/2;
+	x=(b*h)/2; // Processamento, formula do triângulo
 	
-	System.out.println("A área do triângulo é " + x);
+	System.out.println("A área do triângulo é " + x); //Saída do resultado
 		
 
 	}
